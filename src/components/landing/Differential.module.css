@@ -1,0 +1,42 @@
+.box {
+  position: relative;
+  max-width: 880px;
+  margin: 0 auto;
+  background: var(--navy-deep);
+  color: var(--ivory);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-7) var(--sp-5);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.quote {
+  font-family: var(--font-serif);
+  font-size: clamp(20px, 2.6vw, 26px);
+  line-height: 1.45;
+  color: var(--ivory);
+  margin-bottom: var(--sp-4);
+}
+
+.note {
+  font-size: 14px;
+  color: rgba(250, 248, 243, 0.7);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .box {
+    padding: var(--sp-8) var(--sp-7);
+  }
+}

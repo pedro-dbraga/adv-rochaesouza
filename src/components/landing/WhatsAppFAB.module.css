@@ -1,0 +1,35 @@
+.fab {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 50;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.fab:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 14px 36px rgba(37, 211, 102, 0.5);
+}
+
+.fab svg {
+  width: 28px;
+  height: 28px;
+}
+
+@media (min-width: 768px) {
+  .fab {
+    right: 28px;
+    bottom: 28px;
+    width: 60px;
+    height: 60px;
+  }
+}

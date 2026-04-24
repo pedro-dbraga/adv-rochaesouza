@@ -1,0 +1,41 @@
+/* Design tokens — Rocha e Souza */
+:root {
+  /* Cores */
+  --navy: #0e223f;
+  --navy-deep: #08172c;
+  --navy-soft: #1a3358;
+  --gold: #c9a227;
+  --gold-soft: #d9b94a;
+  --ivory: #faf8f3;
+  --ivory-deep: #f1ede2;
+  --ink: #1a1a1a;
+  --muted: #5b6573;
+  --line: #e6e1d3;
+  --white: #ffffff;
+
+  /* Tipografia */
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Espaçamentos */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+  --sp-9: 96px;
+
+  /* Raios e sombras */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadow-sm: 0 1px 2px rgba(8, 23, 44, 0.06);
+  --shadow-md: 0 8px 24px rgba(8, 23, 44, 0.08);
+  --shadow-lg: 0 20px 60px rgba(8, 23, 44, 0.12);
+
+  /* Layout */
+  --container: 1180px;
+}

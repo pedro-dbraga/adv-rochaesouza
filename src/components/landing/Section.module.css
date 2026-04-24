@@ -1,0 +1,41 @@
+.section {
+  padding: var(--sp-8) 0;
+}
+
+.section.alt {
+  background: var(--white);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.head {
+  max-width: 720px;
+  margin: 0 auto var(--sp-6);
+  text-align: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: var(--sp-3);
+}
+
+.title {
+  font-size: clamp(24px, 3.4vw, 34px);
+  margin-bottom: var(--sp-3);
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: var(--sp-9) 0;
+  }
+}

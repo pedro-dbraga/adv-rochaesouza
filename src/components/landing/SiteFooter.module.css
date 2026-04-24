@@ -1,0 +1,106 @@
+.ethics {
+  background: var(--ivory-deep);
+  border-top: 1px solid var(--line);
+  padding: var(--sp-5) 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.footer {
+  background: var(--navy-deep);
+  color: var(--ivory);
+  padding: var(--sp-7) 0 var(--sp-6);
+}
+
+.card {
+  display: grid;
+  gap: var(--sp-5);
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.brandWrap {
+  display: none;
+}
+
+.brand {
+  font-family: var(--font-serif);
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--ivory);
+  letter-spacing: 0.01em;
+}
+
+.brand span {
+  color: var(--gold);
+}
+
+.brandTag {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(250, 248, 243, 0.6);
+  margin-top: var(--sp-2);
+}
+
+.contacts {
+  display: grid;
+  gap: var(--sp-2);
+  font-size: 14px;
+  color: rgba(250, 248, 243, 0.85);
+}
+
+.contacts a {
+  color: var(--ivory);
+  border-bottom: 1px solid transparent;
+  transition: border-color 160ms ease;
+}
+
+.contacts a:hover {
+  border-bottom-color: var(--gold);
+}
+
+.contactLabel {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--gold);
+  margin-bottom: 2px;
+  display: block;
+}
+
+.bottom {
+  text-align: center;
+  margin-top: var(--sp-6);
+  padding-top: var(--sp-4);
+  border-top: 1px solid rgba(250, 248, 243, 0.08);
+  font-size: 12px;
+  color: rgba(250, 248, 243, 0.55);
+}
+
+@media (min-width: 768px) {
+  .brandWrap {
+    display: block;
+    text-align: left;
+  }
+  .card {
+    grid-template-columns: 1fr 1px 1fr;
+    text-align: left;
+    gap: var(--sp-7);
+    align-items: stretch;
+  }
+  .divider {
+    width: 1px;
+    background: linear-gradient(180deg, transparent, var(--gold), transparent);
+    align-self: stretch;
+  }
+  .contacts {
+    text-align: right;
+    justify-content: center;
+    align-content: center;
+  }
+}
