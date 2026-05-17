@@ -16,7 +16,7 @@ interface HeroProps {
 
 export function Hero({
   eyebrow = "Usucapião Extrajudicial",
-  headline = <>Regularize seu imóvel direto no <em>cartório</em>, com mais rapidez e menos burocracia.</>,
+  headline = <>Regularize seu imóvel direto no cartório, com mais rapidez e menos burocracia.</>,
   sub = "A usucapião extrajudicial permite regularizar seu imóvel sem processo judicial, com mais agilidade e segurança jurídica.",
   ctaMsg = "Olá, gostaria de entender se meu caso se enquadra em usucapião extrajudicial.",
   ctaLabel = "Falar com um advogado",
