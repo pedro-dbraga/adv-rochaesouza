@@ -9,6 +9,7 @@ import BloqueioValores from "./pages/BloqueioValores.tsx";
 import Distrato from "./pages/Distrato.tsx";
 import PlanoSaude from "./pages/PlanoSaude.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import ScrollToTop from "./components/ScrollToTop"; // Importe o componente
 
 const queryClient = new QueryClient();
 
@@ -18,6 +19,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/usucapiao" element={<Usucapiao />} />
